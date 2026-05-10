@@ -9,7 +9,7 @@ spec:
     - matrix:
         generators:
           - git:
-              repoURL: https://github.com/Yairdamri/gitops-cert-level-2-examples.git
+              repoURL: https://github.com/yairdamri/gitops-cert-level-2-examples.git
               revision: HEAD
               directories:
                 - path: application-sets/example-apps/*
@@ -23,7 +23,7 @@ spec:
       project: default
 
       source:
-        repoURL: https://github.com/Yairdamri/gitops-cert-level-2-examples.git
+        repoURL: https://github.com/yairdamri/gitops-cert-level-2-examples.git
         targetRevision: HEAD
         path: '{{path}}'
 

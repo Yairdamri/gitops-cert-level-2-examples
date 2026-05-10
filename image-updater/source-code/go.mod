@@ -1,3 +1,3 @@
-module github.com/Yairdamri/gitops-certification-examples/simple-web-app
+module github.com/yairdamri/gitops-certification-examples/simple-web-app
 
 go 1.15
